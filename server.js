@@ -26,6 +26,7 @@ server = http.createServer(function(req, res) {
 });
 
 server.listen(8080);
+console.log('Server running at http://127.0.0.1:8080/');
 
 send200 = function(res, file) {
   res.writeHead(200);
